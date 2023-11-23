@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gold Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="stopwatch">
+      <h1><span class="gold">GOLD</span> STOPWATCH</h1>
+      <div class="circle">
+        <span class="min">00 :</span>
+        <span class="sec">00 :</span>
+        <span class="msec">00</span>
+      </div>
+
+      <div class="controls">
+        <button class="resetbtn btn visibility"> Reset </button>
+        <button class="playbtn btn"> Play </button>
+        <button class="lapbtn btn visibility"> Lap </button>
+      </div>
+    </div>
+    <ul class="laps">
+    </ul>
+    <button class="clearbtn laptime">Clear</button>
+    <script src="script.js"></script>
+  </body>
+</html>
